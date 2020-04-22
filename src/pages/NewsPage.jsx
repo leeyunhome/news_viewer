@@ -8,6 +8,7 @@ const NewsPage = ({ match }) => {
 
     return (
         <>
+            <h5>카테고리를 선택해주세요</h5> 
             <Categories />
             <NewsList category={category} />
         </>
